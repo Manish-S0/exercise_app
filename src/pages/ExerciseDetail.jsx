@@ -1,8 +1,15 @@
-
-
+import Details from "../components/Details"
+import SimilarExercises from "../components/SimilarExercises"
+import SimilarEquipment from "../components/SimilarEquipment"
 const ExerciseDetail = () => {
   return (
-    <div>ExerciseDetail</div>
+    <>
+    
+    
+    <Details/>
+    <SimilarExercises/>
+    <SimilarEquipment/>
+    </>
   )
 }
 

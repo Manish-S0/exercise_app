@@ -16,7 +16,8 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
         cursor: 'pointer',
         gap: '30px'
       }}
-      onClick={() => {setBodyPart(item); window.scrollTo({top: 1800, left: 100, behavior: 'smooth'});}}>
+      onClick={() => {setBodyPart(item); 
+      window.scrollTo({top: 1800, left: 100, behavior: 'smooth'});}}>
 
       <img src={Icon} alt="dumbbell" style={{width:'100px',height:'100px',paddingTop:'15px'}} />
 
